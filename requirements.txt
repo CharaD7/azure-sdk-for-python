@@ -6,3 +6,4 @@ coverage
 pyopenssl
 msrest>=0.4.0,<0.5.0
 msrestazure>=0.4.0,<0.5.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
